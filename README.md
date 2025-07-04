@@ -16,7 +16,7 @@ Both models are trained on the **Flickr30k dataset** to generate natural languag
 ├── inference_single_img_custom.py       # Inference with custom decoder on a single image
 ├── inference_flickrtest_qwen.py         # Evaluate Qwen model on Flickr30k test split
 ├── image_caption_qwen.py                # Training script for Qwen decoder
-├── image_caption_custom.py              # Training script for custom decoder
+├── image_caption_custom.py              # Training script for custom transformer decoder
 ├── utils.py                             # Helper functions (e.g., Flickr30k loader)
 ├── flickr_dataset/                      # Locally saved train/val/test splits (via `load_from_disk`)
 └── qwen3model/                          # Directory containing the base Qwen model
