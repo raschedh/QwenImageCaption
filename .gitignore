@@ -1,0 +1,6 @@
+flickr_dataset/
+qwen3model/
+__pycache__/
+qwen_img_weights.pth
+.DS_Store
+
