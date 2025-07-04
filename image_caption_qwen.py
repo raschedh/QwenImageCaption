@@ -44,8 +44,8 @@ if __name__ == "__main__":
     image_processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
     image_model.eval()
 
-    text_tokenizer = AutoTokenizer.from_pretrained("./qwen3", use_fast=True)
-    text_model = AutoModelForCausalLM.from_pretrained("./qwen3").to(DEVICE)
+    text_tokenizer = AutoTokenizer.from_pretrained("./qwen3model", use_fast=True)
+    text_model = AutoModelForCausalLM.from_pretrained("./qwen3model").to(DEVICE)
     text_model.train()
 
     PAD_TOKEN_ID = text_tokenizer.pad_token_id or text_tokenizer.eos_token_id
