@@ -1,8 +1,8 @@
 # Image Captioning with CLIP + Qwen 3 & Custom Transformer Decoders
 
-This repository contains code for training and evaluating image captioning models that integrate CLIP's vision encoder with two distinct decoder strategies:
-- 🔸 A **Qwen 3 (0.6B)** language model augmented with vision input.
-- 🔹 A **custom Transformer decoder** trained from scratch.
+This repo contains code for training and evaluating image captioning models that integrate CLIP's vision encoder with two distinct decoder strategies:
+- A **Qwen 3 (0.6B)** language model augmented with vision input.
+- A **custom Transformer decoder** trained from scratch.
 
 Both models are trained on the **Flickr30k dataset** to generate natural language descriptions for images.
 
