@@ -8,7 +8,7 @@ Both models are trained on the **Flickr30k dataset** to generate natural languag
 
 ---
 
-## 📦 Project Structure
+## Structure
 
 ```bash
 .
